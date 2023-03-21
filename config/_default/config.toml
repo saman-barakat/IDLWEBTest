@@ -1,4 +1,4 @@
-baseurl = "https://saman-barakat.github.io/IDLWEBTest/"
+baseurl = "https://saman-barakat.github.io/IDLWEBTest/website/"
 canonifyURLs = false
 disableAliases = true
 disableHugoGeneratorInject = true
