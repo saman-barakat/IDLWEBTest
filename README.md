@@ -5,10 +5,14 @@ IDL is designed to express the seven types of inter-parameter dependencies ident
 
 ## Index:
 
-1. [Catalogue of inter-parameter dependencies](#catalogue-of-inter-parameter-dependencies)
-2. [How to use IDL?](#how-to-use-idl)
-3. [IDL grammar](#idl-grammar)
-4. [IDL Editor](#idl-editor)
+- [IDL: Inter-parameter Dependency Language](#idl-inter-parameter-dependency-language)
+  - [Index:](#index)
+  - [Catalogue of inter-parameter dependencies:](#catalogue-of-inter-parameter-dependencies)
+    - [More IDL examples](#more-idl-examples)
+  - [How to use IDL?](#how-to-use-idl)
+  - [IDL grammar](#idl-grammar)
+  - [IDL Editor:](#idl-editor)
+    - [Things to notice](#things-to-notice)
 
 
 ## Catalogue of inter-parameter dependencies:
@@ -52,6 +56,8 @@ IDL is designed to express the seven types of inter-parameter dependencies ident
         ends_at_min <= ends_at_max;
   
 * **Complex:** These dependencies are specified as a combination of the previous ones. As an exception to this rule, predicates cannot include Requires dependencies to avoid over-complicated specifications (such dependencies can be expressed in simpler ways).
+
+
 
 ### More IDL examples
 If you want to see more examples of IDL specifications from real APIs, check [here](es.us.isa.interparamdep/resources/expressiveness_evaluation).
