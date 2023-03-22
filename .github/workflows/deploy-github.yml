@@ -31,4 +31,3 @@ jobs:
         with:
           personal_token: ${{ secrets.PERSONAL_ACCESS_TOKEN }}
           publish_dir: ./public
-
